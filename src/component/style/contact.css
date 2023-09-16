@@ -1,0 +1,55 @@
+/* Contact.css */
+
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+form{
+    width: 100%;
+    margin: 5% auto;
+    border: 5px solid;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 28px 0px;
+  }
+  
+  .contact h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #ff5733; /* Change to your desired button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e64c29; /* Change to a darker shade for hover effect */
+  }
+  

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 5px;
+    width: 95%;
+    margin: 1% auto;
+    display: flex;
+    background-color:rgb(249 243 243);
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+.header a:hover{
+    font-weight: bolder;
+}
+.logo{
+    width: 10%;
+    text-align: center;
+}
+.logo img{
+    width: 50%;
+}
+.header nav ul{
+    display: flex;
+}
+
+.menu li{
+    text-decoration: none;
+}
+nav li{
+    list-style-type: none; 
+    margin: auto 10%;
+}
+.menu{
+    width: 100%;
+    margin:auto 5%;
+    display: flex;
+    justify-content: space-around;
+}

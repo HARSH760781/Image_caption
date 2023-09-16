@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
+.image-section{
+    width: 90%;
+    margin: auto;
+}
+.image{
+    width:100%;
+}
+.custom-file-upload {
+    display: flex;
+    width: 90%;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    border: 2px dashed #ccc;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+    /* margin: 20px; */
+  }
+  .custom-file-upload:hover {
+    background-color: #f0f0f0;
+  }
+  .image-caption-container{
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 20px auto;
+  }
+  
+  .browse{
+    color: blue;
+  }
+
+  .btns{
+    text-align: center;
+  }
+  .sample{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .sample img{
+    width: 10%;
+    margin: 1%;
+  }
